@@ -1,2 +1,1 @@
-# Defensive
-A local rust based defensive program for Home Server
+# Note : code is really messy 
