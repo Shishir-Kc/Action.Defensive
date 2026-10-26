@@ -63,6 +63,5 @@ pub fn read_file(name: &str, path: &str, type_of_file: FileType) -> String {
     match type_of_file {
         FileType::TXT => read_txt(full_path),
         FileType::JSON => read_json(full_path),
-        _ => String::from("Unsupported file format"),
     }
 }
