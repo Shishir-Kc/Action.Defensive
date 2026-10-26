@@ -1,0 +1,96 @@
+{
+  "version": "0.1",
+  "packages": [
+    {
+      "package_name": "fail2ban",
+      "installation_command": "sudo pacman -S fail2ban",
+      "description": "Scans log files and bans IPs that show malicious behavior",
+      "usage": "Protect SSH, nginx and other services from brute-force login attempts",
+      "license": "GPL-2.0"
+    },
+    {
+      "package_name": "lynis",
+      "installation_command": "sudo pacman -S lynis",
+      "description": "Security auditing tool for Unix-like systems",
+      "usage": "Audit your system and get hardening suggestions",
+      "license": "GPL-3.0"
+    },
+    {
+      "package_name": "trivy",
+      "installation_command": "sudo pacman -S trivy",
+      "description": "Vulnerability and misconfiguration scanner",
+      "usage": "Scan containers, dependencies and infrastructure configs",
+      "license": "Apache-2.0"
+    },
+    {
+      "package_name": "gitleaks",
+      "installation_command": "sudo pacman -S gitleaks",
+      "description": "Detects hardcoded secrets in code and git history",
+      "usage": "Catch API keys and passwords before they get committed",
+      "license": "MIT"
+    },
+    {
+      "package_name": "crowdsec",
+      "installation_command": "sudo pacman -S crowdsec",
+      "description": "Collaborative, community-driven intrusion prevention engine",
+      "usage": "Detect and block malicious IPs (alternative to fail2ban)",
+      "license": "MIT"
+    },
+    {
+      "package_name": "suricata",
+      "installation_command": "sudo pacman -S suricata",
+      "description": "High-performance network IDS/IPS and monitoring engine",
+      "usage": "Inspect network traffic and alert on or block attacks",
+      "license": "GPL-2.0"
+    },
+    {
+      "package_name": "nftables",
+      "installation_command": "sudo pacman -S nftables",
+      "description": "Modern Linux packet filtering framework",
+      "usage": "Build firewall rules to control incoming and outgoing traffic",
+      "license": "GPL-2.0"
+    },
+    {
+      "package_name": "zaproxy",
+      "installation_command": "sudo pacman -S zaproxy",
+      "description": "OWASP ZAP, a web application security scanner",
+      "usage": "Test web apps and APIs for vulnerabilities",
+      "license": "Apache-2.0"
+    },
+    {
+      "package_name": "nmap",
+      "installation_command": "sudo pacman -S nmap",
+      "description": "Network discovery and port scanning tool",
+      "usage": "See which ports and services your machine exposes",
+      "license": "Nmap Public Source License (NPSL)"
+    },
+    {
+      "package_name": "clamav",
+      "installation_command": "sudo pacman -S clamav",
+      "description": "Open source antivirus engine",
+      "usage": "Scan files, uploads and mail for malware",
+      "license": "GPL-2.0"
+    },
+    {
+      "package_name": "yara",
+      "installation_command": "sudo pacman -S yara",
+      "description": "Pattern matching tool for identifying malware",
+      "usage": "Write and run rules to classify suspicious files",
+      "license": "BSD-3-Clause"
+    },
+    {
+      "package_name": "openscap",
+      "installation_command": "sudo pacman -S openscap",
+      "description": "Security compliance scanning toolkit based on SCAP standards",
+      "usage": "Check systems against security baselines and benchmarks",
+      "license": "LGPL-2.1"
+    },
+    {
+      "package_name": "rkhunter",
+      "installation_command": "sudo pacman -S rkhunter",
+      "description": "Rootkit, backdoor and local exploit scanner",
+      "usage": "Check your system for signs of rootkits",
+      "license": "GPL-2.0"
+    }
+  ]
+}
