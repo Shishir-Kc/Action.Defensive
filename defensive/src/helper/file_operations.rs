@@ -56,6 +56,7 @@ pub fn read_file(name: &str, path: &str, type_of_file: FileType) -> String {
             - FileType::TXT
             - FileType::JSON
 
+        Using internal function that should not be exposed.
     */
 
     let mut full_path = path.to_owned();
